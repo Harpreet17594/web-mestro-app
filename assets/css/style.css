@@ -1,0 +1,104 @@
+body {
+  background-color: rgb(173, 173, 173);
+}
+.navbar {
+  background-color: rgb(191, 191, 191);
+  border-bottom: 2px solid rgb(78, 78, 78);
+}
+
+.navbar-brand,
+.nav-item {
+  transition: box-shadow 0.6s ease;
+}
+
+.navbar-brand:hover,
+.nav-item:hover {
+  box-shadow: 0 -2px black inset;
+}
+
+.sections {
+  background-color: rgb(139, 139, 139);
+  padding: 20px;
+  margin-top: 50px;
+  box-shadow: 1px 1px 10px #ffffff;
+
+  margin-bottom: 10px;
+  /* opacity: .6; */
+}
+
+.landing-title {
+  text-align: center;
+}
+
+.web-m {
+  color: rgb(16, 97, 20);
+}
+
+.landing-card {
+  margin-top: 50px;
+  background-color: #ffffff98;
+  border: 2px solid black;
+  border-radius: 8px;
+  margin-bottom: 50px;
+}
+
+.row-hero {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.hero-body {
+  background-image: url(../../assets/images/homepage-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: bottom;
+  background-blend-mode: color;
+  background-color: rgba(0, 0, 255, 0.7);
+}
+
+.learning-style-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.learning-style-header {
+  text-decoration: underline;
+}
+
+.learning-style {
+  color: black;
+  margin-right: 40px;
+}
+
+h4 {
+  margin-top: 20px;
+}
+
+footer {
+  position: relative;
+  left: 0;
+  bottom: -28px;
+  width: 100%;
+  background-color: rgb(191, 191, 191);
+  border-top: 2px solid rgb(49, 49, 49);
+  color: white;
+  text-align: center;
+}
+
+.footer-logo {
+  border: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+@media only screen and (min-width: 768px) {
+  iframe {
+    height: 13em;
+  }
+
+  .card {
+    width: auto;
+    margin: 10px;
+    padding: 10px;
+  }
+}
